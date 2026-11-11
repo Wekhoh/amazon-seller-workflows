@@ -17,7 +17,13 @@ Owner-approved scope: one public MIT repository for reusable seller Skills, work
 - No API implementation, connector installation, hosted service, scheduled job or product-selection change.
 - Skill validation and independent privacy/semantic review passed. Fictional forward tests covered a paused old campaign versus a running replacement with shared product scope, and reconciliation after an unknown submission result.
 - The shared local Skill and both client paths match the reviewed source. Current chats may retain cached descriptions. No live store mutation was used for acceptance; unchanged reader tests retain their existing validity.
-- This documentation-only addition is delivered publicly when its reviewed PR lands on main; host-specific MCP configuration stays outside this repository.
+- Published through [PR #1](https://github.com/Wekhoh/amazon-seller-workflows/pull/1), merged on main; host-specific MCP configuration stays outside this repository.
+
+## Economic and historical-evidence clarification — 2026-11-11
+
+- The manual reference now defines contribution-based break-even CPC/ACOS with aligned orders, costs and attribution; its monetary example is synthetic.
+- Historical orders remain evidence rather than permanent protection, and another product's zero orders do not erase observed conversions. Recommendations still require current scope and separate execution authorization.
+- Independent privacy and semantic review passed, including four fictional uses and the exact scope of historical corrections. Both installed advertising-review Skill paths match the package. Only reference text and this delivery record change; the existing ten script tests remain valid because their inputs and code are unchanged.
 
 ## Next use
 

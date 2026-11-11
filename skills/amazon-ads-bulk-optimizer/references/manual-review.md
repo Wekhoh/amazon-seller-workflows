@@ -24,6 +24,24 @@ Use query data for query-specific conclusions and placement data for placement c
 
 Evaluate both absolute outcomes and efficiency. Explain relevant sample size, volatility, costs and alternative explanations. A smaller advertising bill can reduce losses while also reducing useful orders; the owner decides the tradeoff from current evidence. A specific successful campaign does not prove a universal matching, naming, threshold or budget strategy.
 
+### Contribution and break-even checks
+
+For an economic comparison, define pre-ad contribution after the applicable product, platform, fulfillment, logistics, discount and return costs; do not deduct a cost twice. State any excluded costs and keep fixed-overhead allocation separate. Unknown costs remain unknown.
+
+Use the same product mix, dates and advertising attribution basis throughout:
+
+- `ad CVR = attributed orders / clicks` as a decimal; whole-product Unit Session Percentage is not a substitute.
+- `break-even average CPC = ad CVR × pre-ad contribution per attributed order`.
+- `break-even ACOS = total pre-ad contribution of attributed orders / attributed revenue` as a ratio (multiply by 100 for percent).
+
+Use order-level contribution for multi-unit orders. Missing or zero denominators make the affected calculation unavailable. When revenue and net receipts differ, reconcile them rather than substituting one denominator for another. These are accounting identities for the stated cohort, not a causal model, a bid recommendation or a prediction of future conversion. Attributed profit does not establish incremental profit; whole-business profitability needs its own cost reconciliation.
+
+Synthetic example: $10 contribution per order and 10% ad CVR imply $1 break-even average CPC. This does not create a universal $1 target or prove that any campaign is profitable. Tie the recommendation to the current owner's objective rather than requiring organic share or rank to rise in every case. Amazon's [ACOS guide](https://advertising.amazon.com/library/guides/acos-advertising-cost-of-sales) connects break-even ACOS with profit margin; the CPC equation above follows from the stated units.
+
+### Historical orders and negative recommendations
+
+A historical order is relevant evidence, not permanent immunity from a negative recommendation. Conversely, zero orders for one product do not erase another product's conversions. Compare the actual product/campaign scope, related queries, current economics, preserved exceptions and attribution maturity. Separate an owner's business tradeoff under uncertainty from statistical proof; a historical example grants no new execution permission.
+
 ## Output and follow-up
 
 For each requested entity, summarize the prior action and stated reason, current observed configuration, direct advertising performance, product-level result where available, confounders, recommendation and remaining unknowns. Cite the private source file or returned evidence and capture/window dates next to material numbers.
