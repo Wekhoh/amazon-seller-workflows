@@ -1,17 +1,18 @@
 # Amazon Seller Workflows
 
-Practical seller Skills, evidence-led playbooks and small local tools. MIT licensed. The first release supports a manual Amazon Ads retrospective and read-only inspection of supplied workbooks.
+Practical seller Skills, evidence-led playbooks and small local tools. MIT licensed. The collection supports manual Amazon Ads review, read-only workbook inspection and owner-directed use of existing Amazon MCP tools.
 
-这是一个按需使用的运营工作流与技能库。首批提供广告手动复盘、Bulk 检查和处理报告解释；真实经营资料留在使用者本机。
+这是一个按需使用的运营工作流与技能库。提供广告手动复盘、Bulk 检查、处理报告解释，以及通过已有 MCP 操作店铺的流程说明；真实经营资料留在使用者本机。
 
 ## What is ready
 
 - [Manual advertising review Skill](skills/amazon-ads-bulk-optimizer/SKILL.md): reconstruct changes, compare compatible evidence, explain uncertainty and prepare owner-reviewed recommendations.
+- [Owner-directed MCP operations Skill](skills/amazon-store-operations/SKILL.md): identify current targets, obtain specific approval, use existing tools and reconcile the result. It installs no connector or automation.
 - `inspect_bulk.py`: inspect a supplied Sponsored Products Bulk export, scoped by ASIN and/or SKU.
 - `explain_report.py`: explain errors in a supplied upload-processing report across sheets.
 - A fictional workbook generator and CLI tests. No account, API key or model subscription is required for these scripts.
 
-The historical Skill identifier is retained for compatibility; this release supplies **review and inspection**, not an upload builder or live optimizer. It does not run an autonomous store, collect store data, schedule jobs or call paid APIs. Existing applications, product-selection tools and private knowledge systems remain separate projects.
+The historical advertising-review Skill identifier is retained for compatibility; its scripts remain **read-only inspectors**. The separate operations Skill gives instructions for existing, independently configured MCP tools; it includes no API client or executable writer. This repository does not run an autonomous store, collect store data or schedule jobs. Existing applications, product-selection tools and private knowledge systems remain separate projects.
 
 ## Quick start
 
