@@ -11,6 +11,14 @@ Owner-approved scope: one public MIT repository for reusable seller Skills, work
 - The documented fictional commands and the installed Skill commands passed; source workbook bytes were unchanged, missing placement remained unknown and cross-sheet report findings were preserved.
 - All eight installed Skill files match the public package. The former installation is preserved in a private recovery archive. Existing chats may cache an older description until their instruction catalog refreshes.
 
+## Owner-directed MCP operations — 2026-11-11
+
+- Add a concise operations Skill for existing SP-API/Ads tools: current-target verification, specific authorization, minimal updates, private evidence and unknown/partial result reconciliation.
+- No API implementation, connector installation, hosted service, scheduled job or product-selection change.
+- Skill validation and independent privacy/semantic review passed. Fictional forward tests covered a paused old campaign versus a running replacement with shared product scope, and reconciliation after an unknown submission result.
+- The shared local Skill and both client paths match the reviewed source. Current chats may retain cached descriptions. No live store mutation was used for acceptance; unchanged reader tests retain their existing validity.
+- This documentation-only addition is delivered publicly when its reviewed PR lands on main; host-specific MCP configuration stays outside this repository.
+
 ## Next use
 
 - Use the manual review with the user's current question and privately supplied evidence.

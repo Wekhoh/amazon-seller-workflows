@@ -6,7 +6,7 @@ Provide reusable, inspectable seller workflows that an owner and an AI assistant
 
 ## Scope
 
-Included: a self-contained Skill, a source-linked review worksheet, inspection of supplied Sponsored Products Bulk exports, explanation of supplied processing reports, and generated synthetic examples.
+Included: self-contained manual review and owner-directed MCP operating Skills, a source-linked review worksheet, inspection of supplied Sponsored Products Bulk exports, explanation of supplied processing reports, and generated synthetic examples.
 
 Not included in this release: an autonomous store operator, data collection service, ad upload builder, live API writer, hosted application, account management, product selection, shared budget service, memory system or recurring job. Existing independent projects retain their responsibilities. Adding one requires a concrete need and separate scope decision, not merely a migration opportunity.
 
@@ -15,6 +15,7 @@ Not included in this release: an autonomous store operator, data collection serv
 | Module | Interface | Responsibility |
 | --- | --- | --- |
 | Manual review Skill | Task plus current owner context and supplied evidence | Reconstruct changes, compare like-for-like results, expose unknowns and prepare recommendations |
+| MCP operations Skill | Specific owner request plus existing installed MCP tools | Identify current objects, prepare approved scope, execute through the existing route and reconcile outcomes; supplies no client or automatic writer |
 | Bulk inspector | `inspect_bulk.py --bulk PATH --asin VALUE` and/or `--sku VALUE` | Read configuration evidence and identity/state coverage; both identity filters must match when both are supplied |
 | Processing-report reader | `explain_report.py --report PATH` | Read every sheet and distinguish root errors from cascading warnings; never certify upload success from absent errors |
 | Fixture generator | `make_examples.py --output-dir PATH` | Create fictional local workbooks for onboarding and tests |
@@ -25,7 +26,7 @@ These CLI interfaces are the test seams. Tests use actual temporary workbooks an
 
 Configuration describes values at a captured time. Change history describes observed events and their coverage. Performance describes a metric at a stated grain, window and attribution basis. These are distinct inputs. Campaign totals and placement margins cannot manufacture query-by-placement observations.
 
-Prepared recommendation, accepted submission, observed configuration and business effect are separate states. This release reaches review/recommendation only. A future live action must use the user's separately authorized current route, exact scope, before/after values, result reconciliation and readback.
+Prepared recommendation, accepted submission, observed configuration and business effect are separate states. The offline review reaches recommendations only. The separate operations Skill documents use of the user's existing tools after specific authorization, with exact scope, before/after values, result reconciliation and readback. The package does not grant tool access or perform a live action by installation.
 
 ## Delivery acceptance
 
