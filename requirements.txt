@@ -1,0 +1,1 @@
+-r skills/amazon-ads-bulk-optimizer/requirements.txt

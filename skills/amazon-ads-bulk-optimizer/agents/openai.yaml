@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon Ads Manual Review"
+  short_description: "Manual ad review and offline workbook inspection"
+  default_prompt: "Use $amazon-ads-bulk-optimizer to review the supplied advertising evidence, distinguish observed changes from assumptions, and present recommendations without changing the store."
