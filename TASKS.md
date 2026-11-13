@@ -25,6 +25,13 @@ Owner-approved scope: one public MIT repository for reusable seller Skills, work
 - Historical orders remain evidence rather than permanent protection, and another product's zero orders do not erase observed conversions. Recommendations still require current scope and separate execution authorization.
 - Independent privacy and semantic review passed, including four fictional uses and the exact scope of historical corrections. Both installed advertising-review Skill paths match the package. Only reference text and this delivery record change; the existing ten script tests remain valid because their inputs and code are unchanged.
 
+## Evidence interpretation additions — 2026-11-13
+
+- Extend the existing manual reference with combined base/placement comparisons, explicit query-group membership and reconciled shared-campaign totals.
+- Extend the operations Skill with inventory grain/disposition checks and verification of product-specific listing claims.
+- New wording and examples are generic; private source records remain outside this repository. No scripts, tool permissions, automation, product-selection files or business settings change.
+- Publication acceptance: independent privacy/semantic review, fictional forward-use cases, Skill validation and local-reference checks. Installation is verified separately after publication; no business effect is claimed.
+
 ## Next use
 
 - Use the manual review with the user's current question and privately supplied evidence.

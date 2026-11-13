@@ -24,6 +24,16 @@ Use query data for query-specific conclusions and placement data for placement c
 
 Evaluate both absolute outcomes and efficiency. Explain relevant sample size, volatility, costs and alternative explanations. A smaller advertising bill can reduce losses while also reducing useful orders; the owner decides the tradeoff from current evidence. A specific successful campaign does not prove a universal matching, naming, threshold or budget strategy.
 
+### Combined bid and placement changes
+
+Compare the applicable target bid (or inherited default) and placement adjustment together. For the placement-only component, `base bid * (1 + adjustment percent / 100)` gives the placement-adjusted base. Synthetic example: $0.50 with +200% gives $1.50; $0.40 with +250% gives $1.40. The percentage rose while this component fell. This is neither realized CPC nor a universal final bid ceiling: dynamic, rule-based or other applicable modifiers need their own current configuration. Preserve unknowns rather than assuming those modifiers are absent. Amazon's [Sponsored Products guide](https://advertising.amazon.com/library/guides/sponsored-products-best-practices) distinguishes placement adjustments, bidding strategies and actual CPC.
+
+### Query groups and shared totals
+
+Define whether a result describes an exact query, a token/phrase group or an intent family. State normalization and membership rules; a substring search for `hat` also matches `what`. An exact query and its broader group can have different outcomes. Retain source rows and count control totals at their original metric grain. When a query belongs to multiple groups, overlapping group totals or word-weighted orders must not be added as independent orders.
+
+For campaigns spanning products, include known campaign totals once and show any unsupported product allocation as shared/unallocated. Allocate only from compatible, actual product-level evidence; distinguish advertised-product from purchased-product attribution. Do not copy the total to every product or guess a split from overall product sales. Reconcile allocated plus unallocated amounts to the campaign total; the missing breakout does not invalidate the known total or prove incrementality.
+
 ### Contribution and break-even checks
 
 For an economic comparison, define pre-ad contribution after the applicable product, platform, fulfillment, logistics, discount and return costs; do not deduct a cost twice. State any excluded costs and keep fixed-overhead allocation separate. Unknown costs remain unknown.

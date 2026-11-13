@@ -21,6 +21,10 @@ For an inspection request, return the findings and stop before mutations. For a 
 
 For advertising analysis, use the installed manual-review Skill when available, or the supplied review method. Match reporting windows, timezone, attribution maturity and grain. Missing values are unknown. Search-term rows do not automatically represent entities with their own bid or pause setting. Do not impose a fixed click threshold, universal bid or budget rule from a historical example.
 
+When inventory affects the decision, establish the report measure, date grain, product/FNSKU, disposition and location coverage. Combine only complete, nonoverlapping sellable balances; do not sum country totals with their fulfillment-center components. A zero damaged-stock row or one FNSKU's zero does not establish a whole-product stockout; absent rows remain unknown. Positive day-end stock does not rule out an intraday stockout, and warehouse balance alone does not prove current buyability. Check the current [SP-API ledger report definitions](https://developer-docs.amazon.com/sp-api/docs/report-type-values-fba) before treating event quantities as closing balances.
+
+Before preparing publishable listing copy, verify material, construction, dimensions, care, included accessories and functional claims against current product-specific specifications, photos or owner-confirmed physical evidence. Page keywords may come from sponsored competitors or A+ content reused across variants; their presence does not establish this product's attributes. Leave unsupported claims out of the proposed copy and ask for clarification when the missing fact changes the requested result.
+
 Prefer the smallest supported update. Preserve unrequested fields. Before recommending a rollback, compare current values: a prior snapshot is not permission to overwrite a later owner edit.
 
 ## Execute the approved scope
