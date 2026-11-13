@@ -32,6 +32,8 @@ Owner-approved scope: one public MIT repository for reusable seller Skills, work
 - New wording and examples are generic; private source records remain outside this repository. No scripts, tool permissions, automation, product-selection files or business settings change.
 - Publication acceptance: independent privacy/semantic review, fictional forward-use cases, Skill validation and local-reference checks. Installation is verified separately after publication; no business effect is claimed.
 
+The same bounded extraction also adds a buying-intent check to the negative-review section: a bundle's contents do not establish fit for an accessory-only purchase. Historical orders, uncertainty and exact execution scope remain separately evaluated.
+
 ## Next use
 
 - Use the manual review with the user's current question and privately supplied evidence.

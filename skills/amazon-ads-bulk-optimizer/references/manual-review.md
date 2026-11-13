@@ -50,6 +50,8 @@ Synthetic example: $10 contribution per order and 10% ad CVR imply $1 break-even
 
 ### Historical orders and negative recommendations
 
+Assess the dominant buying need against the product's verified form; word overlap, query length and match labels alone do not establish fit. A bundle containing an accessory does not prove suitability for a buyer seeking that accessory alone. Use available query/result evidence and observed purchases, keeping ambiguous intent explicit. This informs a recommendation, not automatic exclusion or permission to apply a negative across other products or campaigns.
+
 A historical order is relevant evidence, not permanent immunity from a negative recommendation. Conversely, zero orders for one product do not erase another product's conversions. Compare the actual product/campaign scope, related queries, current economics, preserved exceptions and attribution maturity. Separate an owner's business tradeoff under uncertainty from statistical proof; a historical example grants no new execution permission.
 
 ## Output and follow-up
